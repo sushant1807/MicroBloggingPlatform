@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    app:cardBackgroundColor="@color/colorBlackish"
+    android:layout_height="wrap_content">
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBlackish"
+    android:layout_margin="8dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/user_name_text"
+        android:text="@string/title_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        android:textColor="@color/colorWhite"
+        android:layout_marginStart="6dp"
+        android:textSize="16sp"
+        android:maxLines="1"
+        app:layout_constraintTop_toTopOf="@id/image_avatar"
+        app:layout_constraintBottom_toBottomOf="@id/image_avatar"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/image_avatar"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="20dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/email_text"
+        android:text="@string/description_name"
+        android:textStyle="bold"
+        android:textColor="@color/colorGrey"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="6dp"
+        android:textSize="12sp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/user_name_text"
+        android:textAlignment="center"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="30dp"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/image_avatar"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:adjustViewBounds="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_background"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

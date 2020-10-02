@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Micro blogging platform</string>
+    <string name="author_list">Authors</string>
+    <string name="post_list">Posts</string>
+    <string name="post_detail">Post Details</string>
+    <string name="sync_data">Syncing the data</string>
+    <string name="title_name">Title</string>
+    <string name="description_name">Description</string>
+    <string name="date_name">Date</string>
+    <string name="image_name">Image</string>
+</resources>
