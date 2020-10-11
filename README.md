@@ -16,4 +16,4 @@ The sample app is using libraries and frameworks:
 7. Dagger 2
 8. Retrofit 
 9. OKHTTP
-10 Material Design 
+10. Material Design 
